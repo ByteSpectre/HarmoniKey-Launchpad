@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Tilt+Neon:regular);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap);
+@font-face {
+  font-family: Linkin-Park;
+  src: url(../src/fonts/LinkinPark.ttf);
+}
+@font-face {
+  font-family: Skrillex;
+  src: url(../src/fonts/scary_glyphs_and_nice_characters.ttf);
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Tilt Neon;
+}
+
+body {
+  background: url(../img/animals-bg.jpg) no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: 800px;
+  background-color: #000000;
+}
+
+a {
+  color: #000000;
+}
+
+.main {
+  width: -moz-max-content;
+  width: max-content;
+  margin: 80px auto 0;
+  border: 1px solid;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
+
+.animals-title {
+  font-family: Poppins;
+  -webkit-text-stroke: 1px #000000;
+  color: #56AC3F;
+}
+
+.title-launch {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+button {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  height: 75px;
+  width: 75px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  border: 2px solid;
+}
+
+.buttons {
+  margin-bottom: 40px;
+}
+.buttons .active {
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  color: rgb(255, 0, 0);
+}
+.buttons :nth-child(27) {
+  margin-top: 4.5px;
+}
+.buttons :nth-child(1) {
+  margin-bottom: 4.5px;
+}
+.buttons :nth-child(4) {
+  margin-top: 4.5px;
+}
+.buttons :nth-child(30) {
+  margin-bottom: 4.5px;
+}
+
+.presets {
+  margin-bottom: 20px;
+}
+.presets button {
+  height: 50px;
+  width: 50px;
+  font-size: 15px;
+  border-radius: 0px;
+}
+
+.footer {
+  color: #fffdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer button {
+  border-radius: 10px;
+  width: 200px;
+  height: 45px;
+}
+
+.lp-button {
+  font-family: Linkin-Park;
+}
+
+.animals-button {
+  font-family: Poppins;
+  color: #56AC3F;
+  pointer-events: none;
+}
+
+.kyoto-button {
+  font-family: Skrillex;
+  font-size: 41px;
+  color: #b50f0f;
+}/*# sourceMappingURL=Animals-style.css.map */
